@@ -1,0 +1,50 @@
+body{
+    display: flex;
+}
+.notes{
+    display: grid;
+    grid-row: auto;
+
+}
+.row *{
+    margin-right: 20px;
+    margin-top: 10px;
+}
+.custom-nav{
+    width: 100%;
+}
+.sidebar a{
+    align-items: center;
+}
+.sidebar ul{
+    list-style: none;
+
+}
+.sidebar ul li{
+    font-weight: bold;
+    margin: 10px;
+}
+.navbar-nav{
+    width: 100%;
+    justify-content: space-between;
+}
+.right-nav *{
+    margin: 10px;
+}
+
+.search-field{
+    margin: 20px;
+}
+a{
+    text-decoration: none;
+}
+form *{
+    margin-right: 10px
+}
+form a svg{
+    width: 40px;
+    height: 40px;
+    background-color: rgba(210, 210, 210, 0.798);
+    color: black;
+    
+}
